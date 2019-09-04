@@ -6,11 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RafaelRossetti23/NewSite.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/RafaelRossetti23/NewSite.git",
+  "author": "RafaelRossetti23 <rafaelrossetti23@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RafaelRossetti23/NewSite/issues"
@@ -18,7 +15,9 @@
   "homepage": "https://github.com/RafaelRossetti23/NewSite#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-ruby-sass": "^4.0.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.12.0",
+    "ruby": "^0.6.1"
   }
 }
