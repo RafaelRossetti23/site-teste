@@ -1,0 +1,40 @@
+header
+    min-height: 700px
+    background: 
+        image: url('../images/contato-background.jpg')
+        position: top center
+        repeat: no-repeat
+        attachment: fixed 
+        size: cover
+
+.contato
+    form
+        margin-top: 30px
+        +clearfix
+        +make-sm-column(8)
+        +make-sm-column-offset(2)
+        .cols
+            +make-row
+        .col
+            +make-sm-column(6)
+        
+    input,
+    select,
+    textarea 
+        padding: 7px 
+        width: 100%  
+        text-transform: uppercase
+        border: 2px solid $cinza-claro
+        +transition(.3s)
+        &:hover
+            border-color: $laranja-claro
+        &:focus
+            border-color: $azul-marinho
+    button
+        margin: 0 auto
+        display: table
+        background: transparent
+
+    .bg-success,
+    .bg-danger
+        padding: 7px
