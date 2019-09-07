@@ -6,3 +6,4 @@ $(function(){
         $(this).toggleClass('ativo')
     })
 })
+new WOW().init()
