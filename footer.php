@@ -1,7 +1,7 @@
 </main>
         <footer>
             <div class="logo-rodape">
-                <a href="index.html" class="botao-link">
+                <a href="index.php" class="botao-link">
                     <span><i class="fas fa-guitar"></i></span>
                 </a>
                 <p>2019 - Todos os direitos reservados &copy;</p>

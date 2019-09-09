@@ -12,29 +12,12 @@
     <script src="https://kit.fontawesome.com/248a018505.js"></script>
 </head>
 <body> 
-    <div class="menu-responsive">
-        <nav>
-            <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="aboutus.php">About Us</a></li>
-                <li><a href="portfolio.php">Portifolio</a></li>
-                <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </nav>
-    </div>    
+    <?php include('includes/organisms/menu-responsive.php'); ?>
     <div class="layout">        
         <header>
             <div class="container">
-                <div class="links">
-                    <nav class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
-                        <ul>
-                            <li><a href="index.php">Home</a></li>
-                            <li><a href="aboutus.php">About Us</a></li>
-                            <li><a href="portfolio.php">Portifolio</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                        </ul>
-                    </nav> 
-                    
+                <div class="links"> 
+                <?php include('includes/organisms/menu.php'); ?>
                     <a class ="toggle wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s" href="javascript:;">
                         <span></span>
                         <span></span>
@@ -47,7 +30,7 @@
                     </ul>
                 </div>
                 <div class="wow fadeInUpBig titulo-slide" data-wow-duration="1s" data-wow-delay=".1s">
-                <h1><strong>Violão para Iniciantes!</strong></h1>
+                <h1><?php echo $chamada; ?></h1>
                 <p>Realize seu sonho de tocar!</p>
                 </div>
             </div>
