@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My New Site</title>
     <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/<?php echo $style; ?>.css">
     <link rel="stylesheet" href="plugins/wow/css/libs/animate.css">
     <link rel="stylesheet" href="css/plugins.css">
     <script src="https://kit.fontawesome.com/248a018505.js"></script>
