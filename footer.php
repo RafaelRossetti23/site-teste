@@ -10,6 +10,7 @@
     </div>
     <script src="plugins/jquery/dist/jquery.min.js"></script>
     <script src="plugins/wow/dist/wow.min.js"></script>
+    <script src="https://kit.fontawesome.com/248a018505.js"></script>
     <script src="javascript/index.js"></script>
 </body>
 </html>

@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php bloginfo('name'); echo " | "; bloginfo('description'); ?></title>
-    <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/<?php echo $style; ?>.css">
-    <link rel="stylesheet" href="plugins/wow/css/libs/animate.css">
-    <link rel="stylesheet" href="css/plugins.css">
-    <script src="https://kit.fontawesome.com/248a018505.js"></script>
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/geral.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/<?php echo $style; ?>.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/bower_components/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/plugins.css">
 </head>
 <body> 
     <?php include('includes/organisms/menu-responsive.php'); ?>
