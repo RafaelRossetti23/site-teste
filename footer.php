@@ -4,7 +4,7 @@
                 <a href="index.php" class="botao-link">
                     <span><i class="fas fa-guitar"></i></span>
                 </a>
-                <p>2019 - Todos os direitos reservados &copy;</p>
+                <p><?php echo date('Y'); ?> - Todos os direitos reservados &copy; - <a href="mailto: <?php bloginfo('admin_email'); ?>"></a><?php bloginfo('admin_email'); ?></p>
             </div>
         </footer>
     </div>

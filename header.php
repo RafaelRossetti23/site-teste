@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/bower_components/wow/css/libs/animate.css">
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/plugins.css">
 </head>
-<body> 
+<body <?php body_class(); ?>> 
     <?php include('includes/organisms/menu-responsive.php'); ?>
     <div class="layout">        
         <header>
