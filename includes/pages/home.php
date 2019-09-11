@@ -2,7 +2,7 @@
     <div class="container">
         <div class="itens">
             <div class="foto">
-                <img src="images/foto-1.png" alt="#">
+                <img src="<?php bloginfo('template_url'); ?>/images/foto-1.png" alt="#">
             </div>
             <div class="icon-1">
                 <i class="fas fa-atom"></i>
